@@ -1,0 +1,802 @@
+{
+   "dashboards": [{
+      "autoswitchDelay": 300,
+      "autoswitchEnabled": false,
+      "autoswitchTabId": "null",
+      "columnCount": 1,
+      "columnProportion": "1",
+      "creationTime": 1572200577263,
+      "dashboardNavigations": {},
+      "description": "",
+      "disabled": false,
+      "gridsterMaxColumns": 12,
+      "hidden": false,
+      "homeTab": false,
+      "id": "7ff914bf-380d-4c55-9308-3d9b5baa8ddd",
+      "importAttempts": 0,
+      "importComplete": true,
+      "lastUpdateTime": 1587911633721,
+      "lastUpdateUserId": "37275519-dcc9-47c7-b117-6dbbf4e623ef",
+      "locked": false,
+      "name": "Custom Dashboards/Datacenter Alert Summary",
+      "namePath": "Custom Dashboards",
+      "rank": 0,
+      "shared": false,
+      "states": [],
+      "temporary": false,
+      "userId": "37275519-dcc9-47c7-b117-6dbbf4e623ef",
+      "widgetInteractions": [
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "5b904a66-7687-4733-afe6-854945ad6033",
+            "widgetIdReceiver": "e9502912-559f-42f9-8b16-d7f0df1d5bf1"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "5b904a66-7687-4733-afe6-854945ad6033",
+            "widgetIdReceiver": "74f88c80-6877-4d94-8e4c-5047781c984d"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "5b904a66-7687-4733-afe6-854945ad6033",
+            "widgetIdReceiver": "d91134e4-f160-4a54-98fc-8ae1faf5d851"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "5b904a66-7687-4733-afe6-854945ad6033",
+            "widgetIdReceiver": "69026910-a5bd-47ea-aec6-576ad55843a6"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "5b904a66-7687-4733-afe6-854945ad6033",
+            "widgetIdReceiver": "b0652251-15dd-45ad-8f38-f95f8b73e358"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "5b904a66-7687-4733-afe6-854945ad6033",
+            "widgetIdReceiver": "be237c2b-eb5a-46f9-b442-578494b6e2b7"
+         }
+      ],
+      "widgets": [
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [
+                  {
+                     "boxLabel": "Parent vCenter",
+                     "metricKey": "summary|parentVcenter",
+                     "metricName": "Summary|Parent vCenter",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Total Alerts",
+                     "metricKey": "System Attributes|total_alert_count",
+                     "metricName": "vRealize Operations Generated|Total Alert Count",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Critical Alerts",
+                     "metricKey": "System Attributes|alert_count_critical",
+                     "metricName": "vRealize Operations Generated|Alert Count Critical",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Immediate Alerts",
+                     "metricKey": "System Attributes|alert_count_immediate",
+                     "metricName": "vRealize Operations Generated|Alert Count Immediate",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Info Alerts",
+                     "metricKey": "System Attributes|alert_count_info",
+                     "metricName": "vRealize Operations Generated|Alert Count Info",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Warning Alerts",
+                     "metricKey": "System Attributes|alert_count_warning",
+                     "metricName": "vRealize Operations Generated|Alert Count Warning",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  }
+               ],
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "filterMode": "tagPicker",
+               "mode": "all",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resource": [],
+               "selectFirstRow": {"selectFirstRow": true},
+               "selfProvider": {"selfProvider": true},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:0_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:0_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "Datacenters (and Active Alerts)"
+            },
+            "gridsterCoords": {
+               "h": 8,
+               "w": 6,
+               "x": 1,
+               "y": 1
+            },
+            "height": 438,
+            "id": "5b904a66-7687-4733-afe6-854945ad6033",
+            "states": [
+               {
+                  "key": "perm_toolbarVisible_widget_7ff914bf-380d-4c55-9308-3d9b5baa8ddd_5b904a66-7687-4733-afe6-854945ad6033",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "permResGrid_widget_7ff914bf-380d-4c55-9308-3d9b5baa8ddd_5b904a66-7687-4733-afe6-854945ad6033",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A207.5234375%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A118%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A292%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A192.62890625%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253AresourceRating%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A172.759765625%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A181.48828125%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A136.7734375%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A170.421875%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A141.154296875%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah47%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%5EstoreState%3Do%253Asorters%253Da%25253Ao%2525253Aroot%2525253Ds%252525253Adata%2525255Eproperty%2525253Ds%252525253AmetricValue_%252525253A%252525253A_System%2525252520Attributes%252525257Calert_count_immediate%2525255Edirection%2525253Ds%252525253AASC%2525255Eid%2525253Ds%252525253AmetricValue_%252525253A%252525253A_System%2525252520Attributes%252525257Calert_count_immediate"
+               }
+            ],
+            "title": "Datacenters (and Active Alerts)",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "alertAction": [],
+               "alertImpact": [],
+               "criticalityLevel": [],
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 5,
+               "filterMode": "tagPicker",
+               "mode": "all",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": [
+                  -1,
+                  0
+               ]},
+               "resource": [],
+               "selfProvider": {"selfProvider": false},
+               "state": [],
+               "status": [0],
+               "tagFilter": null,
+               "title": "Active Alerts (in selected Datacenter)",
+               "type": []
+            },
+            "gridsterCoords": {
+               "h": 12,
+               "w": 12,
+               "x": 1,
+               "y": 13
+            },
+            "height": 666,
+            "id": "e9502912-559f-42f9-8b16-d7f0df1d5bf1",
+            "states": [
+               {
+                  "key": "perm_toolbarVisible_widget_7ff914bf-380d-4c55-9308-3d9b5baa8ddd_e9502912-559f-42f9-8b16-d7f0df1d5bf1",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "permViewMode_widget_7ff914bf-380d-4c55-9308-3d9b5baa8ddd_e9502912-559f-42f9-8b16-d7f0df1d5bf1",
+                  "value": "s%3AcriticalityLevel"
+               },
+               {
+                  "key": "permAlertListDateRangePicked_widget_7ff914bf-380d-4c55-9308-3d9b5baa8ddd_e9502912-559f-42f9-8b16-d7f0df1d5bf1",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "permDateFilter_widget_7ff914bf-380d-4c55-9308-3d9b5baa8ddd_e9502912-559f-42f9-8b16-d7f0df1d5bf1",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last90Days%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permAlertGrid_perm_widget_7ff914bf-380d-4c55-9308-3d9b5baa8ddd_e9502912-559f-42f9-8b16-d7f0df1d5bf1",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A120%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ewidth%25253Dn%2525253A79%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A114.384765625%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A167.98046875%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ewidth%25253Dn%2525253A369.021484375%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ewidth%25253Dn%2525253A767.359375%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A572%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ewidth%25253Dn%2525253A176.271484375%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A168.57421875%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah11%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A1%5EstoreState%3Do%253Asorters%253Da%25253Ao%2525253Aroot%2525253Ds%252525253Adata%2525255Eproperty%2525253Ds%252525253AstartTimeUtc%2525255Edirection%2525253Ds%252525253ADESC%2525255Eid%2525253Ds%252525253AstartTimeUtc"
+               }
+            ],
+            "title": "Active Alerts (in selected Datacenter)",
+            "type": "AlertList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 5,
+               "boxHeight": null,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 0,
+                        "id": "extModel20421-1",
+                        "isStringMetric": false,
+                        "label": "Critical Alerts",
+                        "link": "",
+                        "metricKey": "System Attributes|alert_count_critical",
+                        "metricName": "vRealize Operations Generated|Alert Count Critical",
+                        "metricUnitId": null,
+                        "orangeBound": -1,
+                        "redBound": 0,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Datacenter",
+                        "unit": null,
+                        "yellowBound": -2
+                     },
+                     {
+                        "colorMethod": 0,
+                        "id": "extModel20421-2",
+                        "isStringMetric": false,
+                        "label": "Immediate Alerts",
+                        "link": "",
+                        "metricKey": "System Attributes|alert_count_immediate",
+                        "metricName": "vRealize Operations Generated|Alert Count Immediate",
+                        "metricUnitId": null,
+                        "orangeBound": 0,
+                        "redBound": 99999999,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Datacenter",
+                        "unit": null,
+                        "yellowBound": -1
+                     },
+                     {
+                        "colorMethod": 0,
+                        "id": "extModel20421-3",
+                        "isStringMetric": false,
+                        "label": "Info Alerts",
+                        "link": "",
+                        "metricKey": "System Attributes|alert_count_info",
+                        "metricName": "vRealize Operations Generated|Alert Count Info",
+                        "metricUnitId": null,
+                        "orangeBound": 999998,
+                        "redBound": 999999,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Datacenter",
+                        "unit": null,
+                        "yellowBound": 0
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel20421-4",
+                        "isStringMetric": false,
+                        "label": "Warning Alerts",
+                        "link": "",
+                        "metricKey": "System Attributes|alert_count_warning",
+                        "metricName": "vRealize Operations Generated|Alert Count Warning",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Datacenter",
+                        "unit": "",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 2,
+                        "id": "extModel20421-5",
+                        "isStringMetric": false,
+                        "label": "Total Alerts",
+                        "link": "",
+                        "metricKey": "System Attributes|total_alert_count",
+                        "metricName": "vRealize Operations Generated|Total Alert Count",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Datacenter",
+                        "unit": "",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel4161-1",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "System Attributes|alert_count_critical",
+                        "metricName": "vRealize Operations Generated|Alert Count Critical",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "vSphere World",
+                        "unit": null,
+                        "yellowBound": null
+                     }
+                  ],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "oldMetricValues": false,
+               "periodLength": "last30Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Active Alert Counts (for selected Datacenter)",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 6,
+               "x": 7,
+               "y": 1
+            },
+            "height": 210,
+            "id": "74f88c80-6877-4d94-8e4c-5047781c984d",
+            "title": "Active Alert Counts (for selected Datacenter)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 3,
+               "boxHeight": null,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "labelSize": 16,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel9129-1",
+                        "isStringMetric": false,
+                        "label": "CPU (Time Remaining)",
+                        "link": "",
+                        "metricKey": "OnlineCapacityAnalytics|cpu|demand|timeRemaining",
+                        "metricName": "Capacity Analytics Generated|CPU|Demand|Time Remaining",
+                        "metricUnitId": "week",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Datacenter",
+                        "unit": "Week(s)",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel9129-2",
+                        "isStringMetric": false,
+                        "label": "CPU (Recommended Size)",
+                        "link": "",
+                        "metricKey": "OnlineCapacityAnalytics|cpu|demand|recommendedSize",
+                        "metricName": "Capacity Analytics Generated|CPU|Demand|Recommended Size",
+                        "metricUnitId": "ghz",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Datacenter",
+                        "unit": "GHz",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10869-1",
+                        "isStringMetric": false,
+                        "label": "CPU (Capacity Remaining)",
+                        "link": "",
+                        "metricKey": "OnlineCapacityAnalytics|cpu|demand|capacityRemaining",
+                        "metricName": "Capacity Analytics Generated|CPU|Demand|Capacity Remaining",
+                        "metricUnitId": "ghz",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Datacenter",
+                        "unit": "GHz",
+                        "yellowBound": null
+                     }
+                  ],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "oldMetricValues": false,
+               "periodLength": "last30Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "CPU (for selected Datacenter)",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 4,
+               "x": 1,
+               "y": 9
+            },
+            "height": 210,
+            "id": "d91134e4-f160-4a54-98fc-8ae1faf5d851",
+            "title": "CPU (for selected Datacenter)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 3,
+               "boxHeight": null,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "labelSize": 16,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel13443-3",
+                        "isStringMetric": false,
+                        "label": "Memory (Time Remaining)",
+                        "link": "",
+                        "metricKey": "OnlineCapacityAnalytics|mem|demand|timeRemaining",
+                        "metricName": "Capacity Analytics Generated|Memory|Demand|Time Remaining",
+                        "metricUnitId": "week",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Datacenter",
+                        "unit": "Week(s)",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel13443-1",
+                        "isStringMetric": false,
+                        "label": "Memory (Capacity Remaining)",
+                        "link": "",
+                        "metricKey": "OnlineCapacityAnalytics|mem|demand|capacityRemaining",
+                        "metricName": "Capacity Analytics Generated|Memory|Demand|Capacity Remaining",
+                        "metricUnitId": "tb",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Datacenter",
+                        "unit": "TB",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel13443-2",
+                        "isStringMetric": false,
+                        "label": "Memory (Recommended Size)",
+                        "link": "",
+                        "metricKey": "OnlineCapacityAnalytics|mem|demand|recommendedSize",
+                        "metricName": "Capacity Analytics Generated|Memory|Demand|Recommended Size",
+                        "metricUnitId": "tb",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Datacenter",
+                        "unit": "TB",
+                        "yellowBound": null
+                     }
+                  ],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "oldMetricValues": false,
+               "periodLength": "last30Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Memory (for selected Datacenter)",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 4,
+               "x": 5,
+               "y": 9
+            },
+            "height": 210,
+            "id": "69026910-a5bd-47ea-aec6-576ad55843a6",
+            "title": "Memory (for selected Datacenter)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 3,
+               "boxHeight": null,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "labelSize": 16,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel14366-3",
+                        "isStringMetric": false,
+                        "label": "Disk (Time Remaining)",
+                        "link": "",
+                        "metricKey": "OnlineCapacityAnalytics|diskspace|demand|timeRemaining",
+                        "metricName": "Capacity Analytics Generated|Disk Space|Demand|Time Remaining",
+                        "metricUnitId": "week",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Datacenter",
+                        "unit": "Week(s)",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel14366-1",
+                        "isStringMetric": false,
+                        "label": "Disk (Capacitry Remaining)",
+                        "link": "",
+                        "metricKey": "OnlineCapacityAnalytics|diskspace|demand|capacityRemaining",
+                        "metricName": "Capacity Analytics Generated|Disk Space|Demand|Capacity Remaining",
+                        "metricUnitId": "tb",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Datacenter",
+                        "unit": "TB",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel14366-2",
+                        "isStringMetric": false,
+                        "label": "Disk (Recommended Size)",
+                        "link": "",
+                        "metricKey": "OnlineCapacityAnalytics|diskspace|demand|recommendedSize",
+                        "metricName": "Capacity Analytics Generated|Disk Space|Demand|Recommended Size",
+                        "metricUnitId": "tb",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Datacenter",
+                        "unit": "TB",
+                        "yellowBound": null
+                     }
+                  ],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "oldMetricValues": false,
+               "periodLength": "last30Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Disk (for selected Datacenter)",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 4,
+               "x": 9,
+               "y": 9
+            },
+            "height": 210,
+            "id": "b0652251-15dd-45ad-8f38-f95f8b73e358",
+            "title": "Disk (for selected Datacenter)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 5,
+               "boxHeight": null,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "labelSize": 16,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 2,
+                        "id": "extModel10287-3",
+                        "isStringMetric": false,
+                        "label": "vMotions",
+                        "link": "",
+                        "metricKey": "summary|number_vmotion",
+                        "metricName": "Summary|Number of vMotions",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Datacenter",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 2,
+                        "id": "extModel10287-5",
+                        "isStringMetric": false,
+                        "label": "VMs",
+                        "link": "",
+                        "metricKey": "summary|total_number_vms",
+                        "metricName": "Summary|Total Number of VMs",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Datacenter",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 2,
+                        "id": "extModel10287-2",
+                        "isStringMetric": false,
+                        "label": "ESXi Hosts",
+                        "link": "",
+                        "metricKey": "summary|total_number_hosts",
+                        "metricName": "Summary|Total Number of Hosts",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Datacenter",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 2,
+                        "id": "extModel10287-4",
+                        "isStringMetric": false,
+                        "label": "Clusters",
+                        "link": "",
+                        "metricKey": "summary|total_number_clusters",
+                        "metricName": "Summary|Total Number of Clusters",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Datacenter",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 2,
+                        "id": "extModel10287-1",
+                        "isStringMetric": false,
+                        "label": "Datastores",
+                        "link": "",
+                        "metricKey": "summary|total_number_datastores",
+                        "metricName": "Summary|Total Number of Datastores",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Datacenter",
+                        "unit": null,
+                        "yellowBound": null
+                     }
+                  ],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "oldMetricValues": false,
+               "periodLength": "last30Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Infrastructure Counts (for selected Datacenter)",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 6,
+               "x": 7,
+               "y": 5
+            },
+            "height": 210,
+            "id": "be237c2b-eb5a-46f9-b442-578494b6e2b7",
+            "title": "Infrastructure Counts (for selected Datacenter)",
+            "type": "Scoreboard"
+         }
+      ]
+   }],
+   "entries": {"resourceKind": [
+      {
+         "adapterKindKey": "VMWARE",
+         "internalId": "resourceKind:id:0_::_",
+         "resourceKindKey": "Datacenter"
+      },
+      {
+         "adapterKindKey": "VMWARE",
+         "internalId": "resourceKind:id:1_::_",
+         "resourceKindKey": "vSphere World"
+      }
+   ]},
+   "uuid": "b47df3f6-349f-4c3f-97dd-93c4dade4d9b"
+}
